@@ -21,14 +21,14 @@ Create two API’s which can perform the specified CRUD operations.The project s
 
 {
 
-firstName:string	
-lastName:string	
-mobileNumber:string	10 digits long
-DOB:date	
-emailID:string	(abc@xyz.com)
+firstName:string,	
+lastName:string	,
+mobileNumber:string	10 digits long,
+DOB:date,
+emailID:string	(abc@xyz.com),
 
-address:string	
-customerID:string	(UUID)
+address:string,
+customerID:string	(UUID),
 status:string	[ACTIVE / INACTIVE]
 
 }
@@ -38,11 +38,11 @@ status:string	[ACTIVE / INACTIVE]
 
 {
 
-cardNumber:string	Auto_increment e.g: C001
-cardType:String	[REGULAR/SPECIAL]
-customerName:string	
-status:string [ACTIVE/INACTIVE]	Default: ACTIVE
-vision:string	
+cardNumber:string	Auto_increment e.g: C001,
+cardType:String	[REGULAR/SPECIAL],
+customerName:string	,
+status:string [ACTIVE/INACTIVE]	Default: ACTIVE,
+vision:string,
 customerID:string	[Reference from customer table]
 
 
