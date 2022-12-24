@@ -7,7 +7,7 @@ const app= express()
 app.use(express.json())
 
 mongoose.set('strictQuery', true)
-mongoose.connect("mongodb+srv://Anshika:anshika2003@cluster0.ajpkc5u.mongodb.net/Anshika10-DB",{
+mongoose.connect("mongodb+srv://hariprasadcm:harIprasad@cluster0.ahvii9p.mongodb.net/test",{
     useNewUrlParser:true
 })
 
